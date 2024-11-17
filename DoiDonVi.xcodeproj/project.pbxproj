@@ -15,7 +15,8 @@
 		84297D512C6F522A00A5D54A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84297D502C6F522A00A5D54A /* Base */; };
 		84297D592C6F52FE00A5D54A /* VCDoDai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84297D582C6F52FE00A5D54A /* VCDoDai.swift */; };
 		84297D5B2C6F530D00A5D54A /* VCKhoiLuong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84297D5A2C6F530D00A5D54A /* VCKhoiLuong.swift */; };
-		84297D5D2C6F531B00A5D54A /* VCNhietDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84297D5C2C6F531B00A5D54A /* VCNhietDo.swift */; };
+		84C2D02D2CE8F92E003275F2 /* VCDonViKhoiLuong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2D02C2CE8F92E003275F2 /* VCDonViKhoiLuong.swift */; };
+		84CA004A2CE0743E0056B410 /* VCDonViDoDai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA00492CE0743E0056B410 /* VCDonViDoDai.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		84297D522C6F522A00A5D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84297D582C6F52FE00A5D54A /* VCDoDai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDoDai.swift; sourceTree = "<group>"; };
 		84297D5A2C6F530D00A5D54A /* VCKhoiLuong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCKhoiLuong.swift; sourceTree = "<group>"; };
-		84297D5C2C6F531B00A5D54A /* VCNhietDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNhietDo.swift; sourceTree = "<group>"; };
+		84C2D02C2CE8F92E003275F2 /* VCDonViKhoiLuong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDonViKhoiLuong.swift; sourceTree = "<group>"; };
+		84CA00492CE0743E0056B410 /* VCDonViDoDai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDonViDoDai.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		84297D382C6F522800A5D54A = {
 			isa = PBXGroup;
 			children = (
+				84CA00492CE0743E0056B410 /* VCDonViDoDai.swift */,
 				84297D432C6F522800A5D54A /* DoiDonVi */,
 				84297D422C6F522800A5D54A /* Products */,
 			);
@@ -65,10 +68,10 @@
 				84297D442C6F522800A5D54A /* AppDelegate.swift */,
 				84297D462C6F522800A5D54A /* SceneDelegate.swift */,
 				84297D482C6F522800A5D54A /* ViewController.swift */,
+				84C2D02C2CE8F92E003275F2 /* VCDonViKhoiLuong.swift */,
 				84297D4A2C6F522800A5D54A /* Main.storyboard */,
 				84297D582C6F52FE00A5D54A /* VCDoDai.swift */,
 				84297D5A2C6F530D00A5D54A /* VCKhoiLuong.swift */,
-				84297D5C2C6F531B00A5D54A /* VCNhietDo.swift */,
 				84297D4D2C6F522A00A5D54A /* Assets.xcassets */,
 				84297D4F2C6F522A00A5D54A /* LaunchScreen.storyboard */,
 				84297D522C6F522A00A5D54A /* Info.plist */,
@@ -147,12 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84297D5D2C6F531B00A5D54A /* VCNhietDo.swift in Sources */,
 				84297D492C6F522800A5D54A /* ViewController.swift in Sources */,
 				84297D452C6F522800A5D54A /* AppDelegate.swift in Sources */,
 				84297D592C6F52FE00A5D54A /* VCDoDai.swift in Sources */,
 				84297D5B2C6F530D00A5D54A /* VCKhoiLuong.swift in Sources */,
+				84C2D02D2CE8F92E003275F2 /* VCDonViKhoiLuong.swift in Sources */,
 				84297D472C6F522800A5D54A /* SceneDelegate.swift in Sources */,
+				84CA004A2CE0743E0056B410 /* VCDonViDoDai.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
